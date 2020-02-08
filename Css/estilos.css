@@ -1,0 +1,310 @@
+
+body, html{
+    margin: 0px;
+}
+body{
+    display: flex;
+    background-image: url(../Imagen/tech1.jpg);
+    background-repeat:no-repeat;/*repeat-y 0 repeat x*/
+    background-size: 100% 100%; /*alto y ancho*/
+    background-attachment:fixed;/*scroll o fixed- fija o mivil- adapta a la pantalla*/           
+    background-position: 0px 0px;/*posicion de la imagen*/
+}
+
+.contenedor{
+    font-family: sans-serif;
+    width:90%;
+    height:auto;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+    background-color: rgba(105, 200, 238, 0.801);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;   
+    
+}
+
+.edu{
+    vertical-align: top;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+   
+}
+.container-wrapper-genially{
+    width:100%;
+    height:auto;
+    margin-bottom: 10px;
+}
+.curso{
+    text-align: center;
+    font-size: 30px;
+    color:red;
+    margin-left: 70px; 
+}
+
+.menu{
+    align-items: center;
+    margin:auto; 
+        
+    
+}
+ .menu{
+     width: 90%;   
+}
+
+
+ .btn1{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: top;
+    background-color:green;
+    border-radius: 50%;
+    -webkit-transition: padding 0.5s;
+    color: black;
+    font-size: 16px;
+    width: 100px;
+    height: 100px; 
+    align-items: center;
+    justify-content: center; 
+    padding: 10px;
+        
+
+ }
+ .ul .btn1:hover{
+     background:blue;
+     /* clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%); */
+     padding: 50px;
+     color: red;
+ }
+ .ul .btn1:active{
+    background:grey ;
+    width: 110px;
+    height: 110px;    
+}
+.ul .btn2:hover{
+    background:red ;
+    /* clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%); */
+    width: 110px;
+    height: 110px;
+    color: red;
+}
+.ul .btn2:active{
+   background:grey ;
+   width: 110px;
+   height: 110px;    
+}
+.ul .btn3:hover{
+    background:red;
+    /* clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%); */
+    width: 110px;
+    height: 110px;
+    color: red;
+}
+.ul .btn3:active{
+   background:grey ;
+   clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+   width: 110px;
+   height: 110px;    
+}
+.ul .btn4:hover{
+    background:rgba(18, 39, 228, 0.678) ;
+    padding: 20px;
+    /* width: 220px; */
+    /* height: 240px; */
+    color: red;
+}
+.ul .btn4:active{
+   background:grey;
+   padding: 10px;
+   /* width: 220px; */
+   /* height: 240px;     */
+}
+.ul .btn5:hover{
+    background:rgba(18, 39, 228, 0.678) ;
+    padding: 20px;
+    /* width: 160px; */
+    /* height: 120px; */
+    color: red;
+}
+.ul .btn5:active{
+   background:grey ;
+   width: 220px;
+   height: 240px;    
+}
+.btn2{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: top;
+    background-color:red;
+    border-radius: 50%;
+    -webkit-transition: padding 0.5s;
+    color: black;
+    font-size: 16px;
+    width: 100px;
+    height: 100px; 
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: -50px;
+
+        
+
+ }
+ .btn3{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: top;
+    background-color:red;
+    border-radius: 50%;
+    -webkit-transition: padding 0.5s;
+    color: black;
+    font-size: 16px;
+    width: 100px;
+    height: 100px; 
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 0px;
+
+
+ }
+ .btn4{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: top;
+    background-color:yellow;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    /* border-radius: 50%; */
+    -webkit-transition: padding 0.5s;
+    color: black;
+    font-size: 16px;
+    width: 130px;
+    height: 110px; 
+    align-items: center;
+    justify-content: center;
+    margin-left:130px;
+    margin-top: -70px;
+ }
+ .btn5{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: top;
+    background-color:goldenrod;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    /* border-radius: 50%; */
+    -webkit-transition: padding 0.5s;
+    color: black;
+    font-size: 16px;
+    width: 150px;
+    height: 80px; 
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 10px;
+
+
+ }
+
+
+
+
+
+ @media (min-width:600px){
+    body{
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-image: url(../Imagen/tech1.jpg);
+        background-size:auto;
+        background-size: 100% 100%;
+
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        width:95%;
+        height:auto;
+    }
+    .header{
+        width: 100%;
+        height:500px;
+    }
+    .container-wrapper-genially{
+        width:50%;
+        height:auto;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .Boton{
+        margin-top: 10px;
+    }
+    .edu{
+        text-align: center;
+        font-size: 70px;
+        padding: 0px;
+        margin-left: 150px;
+    }
+    .Present{
+        width:50%;
+        height:300px;
+        
+    }
+    .curso{
+        font-size: 50px;
+        margin:auto;
+        
+        margin-bottom: 30px;
+    }
+    .menu{
+        width: 90%;
+        margin-top: 400px;
+        justify-content: center;
+        display: inline-flex;
+             
+        
+    }
+    .btn1{
+        padding:30px ;
+    }
+
+    .btn2{
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .btn4{
+        margin-top: 0px;
+        margin-left: 150px;
+        margin-right: 20px
+    }
+    .btn5{
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 20px
+    }
+    
+    
+    
+
+ }
+ 
